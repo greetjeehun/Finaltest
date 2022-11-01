@@ -9,4 +9,6 @@ import java.util.List;
 public interface demomapper {
     public List<demodto> getall();
     public void insert(demodto dto);
+
+    public void delete(int num);
 }
