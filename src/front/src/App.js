@@ -1,7 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import {useState} from "react";
 import axios from "axios";
+import Movie from "./movie";
 
 function App() {
     const [id,setid]=useState();
@@ -14,8 +14,11 @@ function App() {
     }
   return (
     <div className="App">
-        <button type={"button"} onClick={selectall}>seaalect</button>
+        <button type={"button"} onClick={selectall}>select</button>
         <h1>Hello World!</h1>
+        <h1>Hello World!</h1>
+        <h1>Hello World!</h1>
+        <Movie/>
     </div>
   );
 }
